@@ -8,7 +8,7 @@ function AiScoreButton() {
   let { generateAiScore } = useContext(Data);
   const generatingScore = () => {
     setPop(false);
-    generateAiScore = Math.floor(Math.random() * 5);
+    generateAiScore = Math.floor(Math.random() * 80);
     setAiScore(generateAiScore);
     setHide(false);
     setShowBtn(false);
