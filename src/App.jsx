@@ -56,7 +56,7 @@ function App() {
   return (
     <div className="App">
       <Data.Provider value={allState}>
-        <h2 className="fw-bold">Hand Cricket</h2>
+        <h1 className="fw-bold">Hand Cricket</h1>
         <Board />
         {pop || aiScore < userScore ? <Popup /> : <></>}
       </Data.Provider>
